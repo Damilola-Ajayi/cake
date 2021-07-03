@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GENERAL AND HOME PAGE STYLING */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+}
+
+.mainpage-header{
+    background-image: url(./images/chocolate\ cake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mainpage-header h1{
+    background-color: white;
+    padding: 7px 13px;
+    font-size: 30px;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.mainpage-header h1 span{
+    color: #ffc0cb;
+    font-size: 40px;
+}
+
+ .mainpage-header nav ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.mainpage-header nav ul li {
+    list-style: none; 
+    margin-top: 30px; 
+}
+
+.mainpage-header nav ul li a {
+    text-decoration:none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.mainpage-header nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    /* color: #f5526d; */
+    font-size: 24px;
+}
+
+.margin{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.black{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    color: white;
+}
+
+.black h1 {
+    color:pink;
+    font-size: 25px;
+}
+
+.big-container{
+    margin: 50px 0 50px 0;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.medium-container{
+    display: flex;
+    justify-content: space-between;
+   margin: 20px 10px;
+   margin-top: 50px;
+   margin-bottom: 70px;
+}
+.medium-container img{
+    border-radius: 25px;
+}
+
+.small-container1{
+    width: 40%;
+    margin-right: 70px;
+    margin-top: 50px;
+    
+}
+
+.small-container2{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+/* VANILLA CAKE STYLING */
+
+.vanilla{
+    color: #f5526d;
+    font-size: 25px;
+}
+
+.vanilla-btn{
+    background-color: #f5526d;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+}
+
+.vanilla-btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #f5526d;
+    color: #f5526d;
+}
+
+/* CHOCOLATE  AND CHOCOLATE-ORANGE CAKE STYLING  */
+
+.chocolate{
+    color: brown;
+    font-size: 25px;
+}
+
+.chocolate-btn{
+    background-color: brown;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+}
+
+.chocolate-btn:hover{
+    /* cursor: pointer;
+    background-color: rgb(145, 24, 24); */
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgb(145, 24, 24);;
+    color: rgb(145, 24, 24);
+}
+
+/* RED VELVET CAKE STYLING */
+
+.red {
+    color: rgb(190, 2, 2);
+    font-size: 25px;
+}
+
+.red-btn{
+    background-color: rgb(190, 2, 2);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+}
+
+.red-btn:hover{
+    /* cursor:pointer;
+    background-color: red; */
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}
+
+/* LEMON CAKE STYLING */
+
+.lemon{
+    color: lime;
+    font-size: 25px;
+}
+
+.lemon-btn{
+    background-color: lime;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+}
+
+.lemon-btn:hover{
+    /* cursor: pointer;
+    background-color: rgb(15, 121, 15); */
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgb(15, 121, 15);
+    color: rgb(15, 121, 15);
+}
+
+/* ORANGE CAKE SYTLING */
+
+.orange{
+    color: orange;
+    font-size: 25px;
+}
+
+.orange-btn{
+    background-color: orange;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+}
+
+.orange-btn:hover{
+    /* background-color: orangered;
+    cursor: pointer; */
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+/* ALL RECIPE PAGES STYLING */
+
+.otherpages-header{
+    padding: 20px 20px;
+}
+
+.otherpages-header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.otherpages-header nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.otherpages-header nav ul li a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.recipeandimage-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.recipe{
+    padding: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+}
+
+.recipe h3 {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.recipe ul li{
+    /* list-style: none; */
+    font-size: 20px;
+    font-weight: 500;
+    font-family: montserrat;
+    line-height: 40px;
+}
+
+.cake-img{
+    border-radius: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 40px;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: montserrat;
+    color: rgb(246, 246, 204) ; 
+    background-color:black;
+    border-radius: 20px;
+}
+
+.method{
+    margin: 100px 0;
+    display: flex ;
+    background-color: rgb(246, 246, 204) ;
+    text-align: justify;
+    justify-content: center;
+    border: 1px solid black; 
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.method ol li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: montserrat;
+}
+
+.method p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+/* VANILLA PAGE STYLING */
+
+.vanilla-header{
+    background-color: #f5526d;
+    color: white;
+    /* background-color: rgb(65, 57, 57);
+    color: white; */
+}
+
+.vanilla-header nav ul li a {
+    color: #000;
+}
+
+/* .vanilla-recipe{
+    background-color: #f5526d;
+    background-color: slategray;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+    border: 1px solid black;
+} */
+
+/* CHOCOLATE AND ORANGE CHOCOLATE PAGE STYLING */
+
+.chocolate-header{
+    background-color: brown;
+    color: white;
+}
+
+.chocolate-header nav ul li a{
+    color: #fff;
+}
+
+/* .chocolate-recipe{
+    background-color: brown;
+    color: #fff;
+    /background-color: slategray;
+    color: white;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+    
+} */
+
+/*RED VELVET PAGE STYLING */
+.red-header{
+    background-color: rgb(190, 2, 2);
+    color: white;
+}
+
+.red-header nav ul li a{
+    color: #fff;
+}
+
+/* .red-recipe{
+    background-color: rgb(190, 2, 2);
+    color: #fff;
+    background-color: slategray;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+} */
+
+/* LEMON CAKE PAGE STYLING */
+.lemon-header{
+    background-color: #12e612;
+    color: #000;
+}
+
+.lemon-header nav ul li a{
+    color: #000;
+}
+
+/* .lemon-recipe{
+    background-color: #12e612;
+    color: #000;
+    background-color: slategray;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+} */
+
+/* ORANGE CAKE PAGE STYLING */
+.orange-header{
+    background-color: orange;
+    color: #fff;
+}
+
+.orange-header nav ul li a{
+    color: #fff;
+}
+
+/* .orange-recipe{
+    background-color:orange;
+    color:  #fff;
+    color: black;
+    background-color: rgb(246, 246, 204) ;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
